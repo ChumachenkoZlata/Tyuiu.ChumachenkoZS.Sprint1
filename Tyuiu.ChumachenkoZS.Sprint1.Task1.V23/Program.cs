@@ -11,7 +11,7 @@ namespace Tyuiu.ChumachenkoZS.Sprint1.Task1.V23
             Console.Title = "Спринт #1 | Выполняла: Чумаченко З. С. | ИБКСб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #23                                                              *");
             Console.WriteLine("* Выполняла: Чумаченко Злата Сергеевна | ИБКСб-26-1                       *");
