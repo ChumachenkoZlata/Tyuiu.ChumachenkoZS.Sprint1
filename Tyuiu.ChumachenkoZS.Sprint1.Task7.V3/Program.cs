@@ -1,6 +1,6 @@
-﻿using Tyuiu.ChumachenkoZS.Sprint1.Task4.V7.Lib;
+﻿using Tyuiu.ChumachenkoZS.Sprint1.Task7.V3.Lib;
 
-namespace Tyuiu.ChumachenkoZS.Sprint1.Task4.V7
+namespace Tyuiu.ChumachenkoZS.Sprint1.Task7.V3
 {
     internal class Program
     {
@@ -11,32 +11,32 @@ namespace Tyuiu.ChumachenkoZS.Sprint1.Task4.V7
             Console.Title = "Спринт #1 | Выполняла: Чумаченко З. С. | ИБКСб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Class Math                                                        *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #7                                                              *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #3                                                              *");
             Console.WriteLine("* Выполняла: Чумаченко Злата Сергеевна | ИБКСб-26-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
+            Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
+            Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Формула: (1 + (x * y)^0.5) / (x - 3 * y)^2                              *");
+            Console.WriteLine("* Формула: z = (3 + e^(y-1)) / (1 + x^2 * |y - tg(x)|)                    *");
 
             double x, y;
 
             Console.WriteLine("Введите значение x: ");
             x = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение y: ");
             y = Convert.ToDouble(Console.ReadLine());
-
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"(1 + ({x} * {y})^0.5) / ({x} - 3 * {y})^2 = " + ds.Calculate(x, y));
+            Console.WriteLine($"z = (3 + e^({y}-1)) / (1 + {x}^2 * |{y} - tg({x})|) = " + ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
