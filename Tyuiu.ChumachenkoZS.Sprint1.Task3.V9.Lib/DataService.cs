@@ -6,7 +6,7 @@ namespace Tyuiu.ChumachenkoZS.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int x)
         {
-            return x / 60.0;
+            return Math.Round(x / 60.0, 3);
         }
     }
 }
