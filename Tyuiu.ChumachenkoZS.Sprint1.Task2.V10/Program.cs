@@ -32,7 +32,7 @@ namespace Tyuiu.ChumachenkoZS.Sprint1.Task2.V10
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Расстояние в дюймах: " + Math.Round(ds.ConvertMetreToInchs(x), 3));
+            Console.WriteLine("Расстояние в дюймах: " + ds.ConvertMetreToInchs(x));
             Console.ReadLine();
         }
     }
